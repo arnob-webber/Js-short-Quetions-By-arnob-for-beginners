@@ -40,6 +40,42 @@ let yourVariableName //  its called camlecase formate
 var yourVariableName
 const yourVariableName
 ```
+
 > var, let, and const are all used for declaring variables in JavaScript, but they have different scoping, hoisting, and reassignment behaviors. in the modern days var is not recomanded.
 
+</details>
+
+#### Question 3
+
+Q: How do you create a function in JavaScript?
+
+<details><summary><b>Answer<br></summary>
+
+```js
+function functioName() //u can use name as it function name
+
+{
+  // your code excute here
+}
+```
+
+![alt text](image.png)
+
+</details>
+
+#### Question 4
+
+Q: How do you call a function in JavaScript?
+
+<details><summary><b>Answer<br></summary>
+
+```js
+function yourFunction() 
+
+{
+  // your code excute here
+}
+yourFunction()
+```
+![alt text](image-1.png)
 </details>
