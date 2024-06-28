@@ -52,9 +52,8 @@ Q: How do you create a function in JavaScript?
 <details><summary><b>Answer<br></summary>
 
 ```js
-function functioName() //u can use name as it function name
-
-{
+function functioName() {
+  //u can use name as it function name
   // your code excute here
 }
 ```
@@ -70,12 +69,33 @@ Q: How do you call a function in JavaScript?
 <details><summary><b>Answer<br></summary>
 
 ```js
-function yourFunction() 
-
-{
+function yourFunction() {
   // your code excute here
 }
-yourFunction()
+yourFunction();
 ```
+
 ![alt text](image-1.png)
+
+</details>
+
+#### Question 5
+
+Q: How do you write an if statement in JavaScript to check if "a" variable "a" is equal to 5?
+
+<details><summary><b>Answer<br></summary>
+
+```js
+if (a === 5)
+```
+
+</details>
+
+#### Quesiont 6
+Q: wht is === mean in js
+
+<details><summary><b>Answer<br></summary>
+
+<p > in JavaScript, the === operator is known as the strict equality operator. It compares two values for equality, considering both the value and the type. This means that === will only return true if the values on both sides of the operator are exactly the same in both type and value </p>
+
 </details>
