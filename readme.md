@@ -112,5 +112,23 @@ for (let number = 1; number <= 5; number++) {
   console.log(number);
 }
 ```
+
 ![alt text](image-2.png)
+
+</details>
+
+#### Question 7
+
+Q: Write a while loop that prints the numbers from 1 to 5.
+
+<details><summary><b>Answer<br></summary>
+
+```js
+let value = 1;
+while (value < 5) {
+  console.log(value);
+  value++;
+}
+```
+![alt text](image-3.png)
 </details>
