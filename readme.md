@@ -92,10 +92,25 @@ if (a === 5)
 </details>
 
 #### Quesiont 6
+
 Q: wht is === mean in js
 
 <details><summary><b>Answer<br></summary>
 
-<p > in JavaScript, the === operator is known as the strict equality operator. It compares <b>two values for equality, considering both the value and the type.</b> This means that === will only return true if the values on both sides of the operator are exactly the same in both type and value </p>
+<p > in JavaScript, the === operator is known as the strict equality operator. It compares two values for equality, considering both the value and the type. This means that === will only return true if the values on both sides of the operator are exactly same in both type and value </p>
 
+</details>
+
+#### Question 6
+
+Q: how do you write a loop that runs 5 times in ?
+
+<details><summary><b>Answer<br></summary>
+
+```js
+for (let number = 1; number <= 5; number++) {
+  console.log(number);
+}
+```
+![alt text](image-2.png)
 </details>
