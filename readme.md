@@ -130,5 +130,23 @@ while (value < 5) {
   value++;
 }
 ```
+
 ![alt text](image-3.png)
+
+</details>
+
+#### Question 8
+
+Q: Write a do...while loop that prints the numbers from 1 to 5.
+
+<details><summary><b>Answer<br></summary>
+
+```js
+let value = 1;
+do {
+  console.log(value);
+  value++;
+} while (value < 5);
+```
+![alt text](image-4.png)
 </details>
