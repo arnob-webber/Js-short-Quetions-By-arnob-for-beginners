@@ -19,7 +19,7 @@
 
 #### Question 1
 
-1. Q: What is the correct syntax to print "Hello, World!" in JavaScript?
+Q: What is the correct syntax to print "Hello, World!" in JavaScript?
 
 <details><summary><b>Answer</b></summary>
 
@@ -28,4 +28,18 @@ console.log("Hello, World!");
 ```
 
 </details>
-v
+
+#### Question 2
+
+Q: How do you create a variable in JavaScript?
+
+<details><summary><b>Answer</b></summary>
+
+```js
+let yourVariableName //  its called camlecase formate
+var yourVariableName
+const yourVariableName
+```
+> var, let, and const are all used for declaring variables in JavaScript, but they have different scoping, hoisting, and reassignment behaviors. in the modern days var is not recomanded.
+
+</details>
