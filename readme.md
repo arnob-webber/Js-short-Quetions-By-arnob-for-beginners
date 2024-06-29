@@ -270,3 +270,44 @@ console.log(language);
 ![alt text](image-11.png)
 
 </details>
+
+#### Question 13
+
+Q. how to finding a element in an array
+
+<details><summary><b>Answer<br></summary>
+
+```js
+// Find the index of an element
+let scores = [10, 20, 30, 40, 50];
+
+let index = scores.indexOf(30);
+
+console.log(index); //excute code 2
+
+// Check if an element exists
+let exists = scores.includes(20);
+console.log(exists); // excute code true
+```
+
+![alt text](image-12.png)
+
+</details>
+
+#### Quesion 14
+
+Q: How do you check the type of a variable in JavaScript?
+
+<details><summary><b>Answer<br></summary>
+
+```js
+let myName = "arnob";
+let myAge = 22;
+
+console.log(typeof myName);
+console.log(typeof myAge);
+```
+
+![alt text](image-14.png)
+
+</details>
