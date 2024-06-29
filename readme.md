@@ -148,5 +148,125 @@ do {
   value++;
 } while (value < 5);
 ```
+
 ![alt text](image-4.png)
+
+</details>
+
+#### Question 7
+
+Q: How do you add an element with the id myDiv to the HTML document using JavaScript?
+
+<details><summary><b>Answer<br></summary>
+
+```javascript
+let newDiv = document.createElement("div");
+newDiv.id = "myDiv";
+document.body.appendChild(newDiv);
+```
+
+</details>
+
+#### Question 8
+
+Q: How do you create an array in JavaScript?
+
+<details><summary><b>Answer<br></summary>
+
+```js
+let myArray = [1, 2, 3, 4, 5];
+```
+
+![alt text](image-5.png)
+
+</details>
+
+#### Question 9
+
+Q: How do you access the first element of an array named myArray?
+
+<details><summary><b>Answer<br></summary>
+
+```js
+let myArray = [1, 2, 3, 4, 5];
+console.log(myArray[0]);
+```
+
+![alt text](image-6.png)
+
+</details>
+
+#### Question 10
+
+Q. how we can modify Array Elements
+
+<details><summary><b>Answer<br></summary>
+
+```js
+let myToy = ["car", "bike", "computer"];
+
+myToy[2] = "Toyota Truck";
+
+console.log(myToy);
+```
+
+![alt text](image-7.png)
+
+</details>
+
+#### Question 11
+
+Q. Adding Elements to an Array
+
+<details><summary><b>Answer<br></summary>
+
+```js
+// add an element to the end
+let myNumber = [1, 2, 3];
+myNumber.push(4);
+console.log(myNumber);
+```
+
+![alt text](image-8.png)
+
+```js
+// add an element to the beginning
+let myNumber = [2, 3, 4];
+myNumber.unshift(1);
+
+console.log(myNumber);
+```
+
+![alt text](image-9.png)
+
+</details>
+
+#### Question 12
+
+Q. how we can remove Elements from an Array
+
+<details><summary><b>Answer<br></summary>
+
+```js
+//remove last element
+let language = ["Bangla", "English", "Abaric", "Hindi"];
+
+language.pop();
+
+console.log(language);
+```
+
+![alt text](image-10.png)
+
+```js
+//remove first element
+let language = ["Bangla", "English", "Abaric", "Hindi"];
+
+language.shift();
+
+console.log(language);
+```
+
+![alt text](image-11.png)
+
 </details>
