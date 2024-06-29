@@ -311,3 +311,62 @@ console.log(typeof myAge);
 ![alt text](image-14.png)
 
 </details>
+
+#### Question 15
+
+Q. What is the DOM?
+
+<details><summary><b>Answer<br></summary>
+<p>
+    The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure(HTML), style(css), and content.
+</p>
+</details>
+
+#### Question 16
+
+Q. What are template literals and how do you use them?
+
+<details><summary><b>Answer<br></summary>
+
+```js
+let name = "arnob";
+let greeting = `Hello, ${name}!`;
+console.log(greeting);
+```
+
+![alt text](image-15.png)
+
+</details>
+
+#### Question 17
+
+Q. arrow function with no peramiter
+
+<details><summary><b>Answer<br></summary>
+
+```js
+let myName = () => "i am arnob";
+
+console.log(myName());
+```
+
+</details>
+
+#### Question 18
+
+Q. handle multiple Statements with arrow function
+
+<details><summary><b>Answer<br></summary>
+
+```js
+let sum = (x, y) => {
+  const result = x + y;
+  return result;
+};
+
+console.log(sum(4, 2));
+```
+
+![alt text](image-16.png)
+
+</details>
